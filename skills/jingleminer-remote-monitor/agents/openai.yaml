@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jingle Miner Remote Monitor"
+  short_description: "Query Jingle Miner Solo telemetry and return only the fixed four-section summary"
+  default_prompt: "Use $jingleminer-remote-monitor to fetch a Jingle Miner Solo status with the stored JINGLE_MINER_DEVICE_UUID and JINGLE_MINER_DEVICE_SECRET when available, otherwise ask for uuid and secret, then return only the fixed four-section English summary with no extra text."
